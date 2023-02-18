@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Staatliches&display=swap');
+
+/* --- PROPIEDADES GENERALES DE LOS HTML --- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(158, 54, 54);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: rgb(31, 30, 30);
+    position: sticky;
+    top: 0;
+    font-family: 'Staatliches', cursive;
+
+}
+
+.logo {
+    width: 50px;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.headerNav {
+    flex-direction: row;
+    justify-content: end;
+}
+
+.menuItems li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.headerMenu {
+    color: whitesmoke;
+    text-decoration-color: firebrick;
+}
+
+a:hover {
+    color: firebrick;
+    text-decoration-color: whitesmoke;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px 5%;
+    background-color: rgb(31, 30, 30);
+    position: relative;
+    top: 0;
+    font-family: 'Staatliches', cursive;
+
+}
+
+.footerNav {
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logoFooter {
+    width: 15px;
+    color: whitesmoke;
+}
+
+.footerMenu {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.h2Titulo {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 54px;
+    color: whitesmoke;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+p{
+    color: white;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.parrafoGeneral{
+    padding: 0px 10%;
+    margin-bottom: 20px;
+}
+
+.subtituloGeneral {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 10%;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    border-bottom: 2px solid black;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* --- CONTACTO --- */
+
+.divContacto {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.divContacto p {
+    text-align: center;
+}
+
+.formDiv {
+    background-color: rgb(31, 30, 30);
+    border: 2px solid white;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.formFonts {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+#message {
+    max-width: 470px;
+    max-height: 200px;
+    min-width: 470px;
+    min-height: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #2d2b2b;
+    border: 1px solid rgb(246, 207, 207);
+    color: whitesmoke;
+}
+
+::placeholder {
+    color: rgb(246, 207, 207);
+    opacity: 1;
+}
+
+input {
+    width: 470px;
+    height: 22px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 5px;
+    background-color: #2d2b2b;
+    border: 1px solid rgb(246, 207, 207);
+    color: whitesmoke;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid firebrick;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: firebrick;
+    color: black;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* --- PREGUNTAS FRECUENTES --- */
+.divPreguntas {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* --- ENVIOS --- */
+.divEnvios {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.envios {
+    margin-inline: 50px;
+    flex-direction: row;
+    text-align: center;
+}
+
+.envioLogo {
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* --- PRODUCTOS --- */
+.divProductos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+.divGaleria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.items {
+    margin-inline: 30px;
+    margin-block: 30px;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px 15px 5px 15px;
+}
+
+.fotosProductos {
+    width: 400px;
+    height: 250px;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* --- INDEX --- */
+
+.divIndex {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.iframe {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* -------------------------------------------- */
+/* -------------------------------------------- */
